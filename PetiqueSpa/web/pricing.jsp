@@ -48,20 +48,20 @@
 		</div>
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	    	<a class="navbar-brand" href="index.html"><span class="flaticon-pawprint-1 mr-2"></span>Pet sitting</a>
+	    	<a class="navbar-brand" href="index.jsp"><span class="flaticon-pawprint-1 mr-2"></span>Pet sitting</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="fa fa-bars"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="vet.html" class="nav-link">Veterinarian</a></li>
-	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-	          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-	          <li class="nav-item active"><a href="pricing.html" class="nav-link">Pricing</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="index.jsp" class="nav-link">Home</a></li>
+	        	<li class="nav-item"><a href="about.jsp" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="vet.jsp" class="nav-link">Veterinarian</a></li>
+	        	<li class="nav-item"><a href="services.jsp" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="gallery.jsp" class="nav-link">Gallery</a></li>
+	          <li class="nav-item active"><a href="pricing.jsp" class="nav-link">Pricing</a></li>
+	          <li class="nav-item"><a href="blog.jsp" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.jsp" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -72,7 +72,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end">
           <div class="col-md-9 ftco-animate pb-5">
-          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Pricing <i class="ion-ios-arrow-forward"></i></span></p>
+          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.jsp">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Pricing <i class="ion-ios-arrow-forward"></i></span></p>
             <h1 class="mb-0 bread">Pricing</h1>
           </div>
         </div>

@@ -48,20 +48,20 @@
 		</div>
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	    	<a class="navbar-brand" href="index.html"><span class="flaticon-pawprint-1 mr-2"></span>Pet sitting</a>
+	    	<a class="navbar-brand" href="index.jsp"><span class="flaticon-pawprint-1 mr-2"></span>Pet sitting</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="fa fa-bars"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="vet.html" class="nav-link">Veterinarian</a></li>
-	        	<li class="nav-item active"><a href="services.html" class="nav-link">Services</a></li>
-	          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-	          <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="index.jsp" class="nav-link">Home</a></li>
+	        	<li class="nav-item"><a href="about.jsp" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="vet.jsp" class="nav-link">Veterinarian</a></li>
+	        	<li class="nav-item"><a href="services.jsp" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="gallery.jsp" class="nav-link">Gallery</a></li>
+	          <li class="nav-item"><a href="pricing.jsp" class="nav-link">Pricing</a></li>
+	          <li class="nav-item active"><a href="blog.jsp" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.jsp" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -72,138 +72,118 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end">
           <div class="col-md-9 ftco-animate pb-5">
-          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Services <i class="ion-ios-arrow-forward"></i></span></p>
-            <h1 class="mb-0 bread">Services</h1>
+          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.jsp">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-0 bread">Blog</h1>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
-    	<div class="container">
-    		<div class="row d-flex no-gutters">
-    			<div class="col-md-5 d-flex">
-    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about-1.jpg);">
-    				</div>
-    			</div>
-    			<div class="col-md-7 pl-md-5 py-md-5">
-    				<div class="heading-section pt-md-5">
-	            <h2 class="mb-4">Why Choose Us?</h2>
-    				</div>
-    				<div class="row">
-	    				<div class="col-md-6 services-2 w-100 d-flex">
-	    					<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-stethoscope"></span></div>
-	    					<div class="text pl-3">
-	    						<h4>Care Advices</h4>
-	    						<p>Far far away, behind the word mountains, far from the countries.</p>
-	    					</div>
-	    				</div>
-	    				<div class="col-md-6 services-2 w-100 d-flex">
-	    					<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-customer-service"></span></div>
-	    					<div class="text pl-3">
-	    						<h4>Customer Supports</h4>
-	    						<p>Far far away, behind the word mountains, far from the countries.</p>
-	    					</div>
-	    				</div>
-	    				<div class="col-md-6 services-2 w-100 d-flex">
-	    					<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-emergency-call"></span></div>
-	    					<div class="text pl-3">
-	    						<h4>Emergency Services</h4>
-	    						<p>Far far away, behind the word mountains, far from the countries.</p>
-	    					</div>
-	    				</div>
-	    				<div class="col-md-6 services-2 w-100 d-flex">
-	    					<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-veterinarian"></span></div>
-	    					<div class="text pl-3">
-	    						<h4>Veterinary Help</h4>
-	    						<p>Far far away, behind the word mountains, far from the countries.</p>
-	    					</div>
-	    				</div>
-	    			</div>
-	        </div>
-        </div>
-    	</div>
-    </section>
-
     <section class="ftco-section bg-light">
-    	<div class="container">
-    		<div class="row mb-5 pb-5">
-          <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
-            <div class="d-block services text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-            		<span class="flaticon-blind"></span>
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.jsp" class="block-20 rounded" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text p-4">
+              	<div class="meta mb-2">
+                  <div><a href="#">April 07, 2020</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
-              <div class="media-body p-4">
-                <h3 class="heading">Dog Walking</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
-                <a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
-              </div>
-            </div>      
+            </div>
           </div>
-          <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
-            <div class="d-block services text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-            		<span class="flaticon-dog-eating"></span>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.jsp" class="block-20 rounded" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text p-4">
+              	<div class="meta mb-2">
+                  <div><a href="#">April 07, 2020</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
-              <div class="media-body p-4">
-                <h3 class="heading">Pet Daycare</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
-                <a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
-              </div>
-            </div>    
+            </div>
           </div>
-          <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
-            <div class="d-block services text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-            		<span class="flaticon-grooming"></span>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.jsp" class="block-20 rounded" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text p-4">
+              	<div class="meta mb-2">
+                  <div><a href="#">April 07, 2020</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
-              <div class="media-body p-4">
-                <h3 class="heading">Pet Grooming</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
-                <a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.jsp" class="block-20 rounded" style="background-image: url('images/image_4.jpg');">
+              </a>
+              <div class="text p-4">
+              	<div class="meta mb-2">
+                  <div><a href="#">April 07, 2020</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
-            </div>      
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.jsp" class="block-20 rounded" style="background-image: url('images/image_5.jpg');">
+              </a>
+              <div class="text p-4">
+              	<div class="meta mb-2">
+                  <div><a href="#">April 07, 2020</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.jsp" class="block-20 rounded" style="background-image: url('images/image_6.jpg');">
+              </a>
+              <div class="text p-4">
+              	<div class="meta mb-2">
+                  <div><a href="#">April 07, 2020</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row mt-5 pt-4">
-        	<div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
-            <div class="d-block services text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-            		<span class="flaticon-blind"></span>
-              </div>
-              <div class="media-body p-4">
-                <h3 class="heading">Dog Walking</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
-                <a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
-            <div class="d-block services text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-            		<span class="flaticon-dog-eating"></span>
-              </div>
-              <div class="media-body p-4">
-                <h3 class="heading">Pet Daycare</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
-                <a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
-              </div>
-            </div>    
-          </div>
-          <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
-            <div class="d-block services text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-            		<span class="flaticon-grooming"></span>
-              </div>
-              <div class="media-body p-4">
-                <h3 class="heading">Pet Grooming</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
-                <a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
-              </div>
-            </div>      
+        <div class="row mt-5">
+          <div class="col text-center">
+            <div class="block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-    	</div>
+      </div>
     </section>
 
     <footer class="footer">
@@ -299,6 +279,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
 
     
   </body>
